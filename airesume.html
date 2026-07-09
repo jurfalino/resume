@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Jonatan R. Urfalino — AI-Fluent Product Leader</title>
+<meta name="description" content="Senior Product Manager & Solutions Architect bringing AI from prototype to production — 20+ years across enterprise and startup IT.">
+<link rel="canonical" href="https://jurfalino.github.io/resume/airesume.html">
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Jonatan R. Urfalino">
+<meta property="og:title" content="Jonatan R. Urfalino — AI-Fluent Product Leader">
+<meta property="og:description" content="Bringing AI from prototype to production — 20+ years of enterprise & startup product leadership. Building with AI since a 2009 thesis on intelligent agents.">
+<meta property="og:url" content="https://jurfalino.github.io/resume/airesume.html">
+<meta property="og:image" content="https://jurfalino.github.io/resume/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Jonatan R. Urfalino — AI-Fluent Product Leader">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Jonatan R. Urfalino — AI-Fluent Product Leader">
+<meta name="twitter:description" content="Bringing AI from prototype to production — 20+ years of enterprise & startup product leadership.">
+<meta name="twitter:image" content="https://jurfalino.github.io/resume/og-image.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B0E13'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' font-weight='700' fill='%23E7B24C' text-anchor='middle'%3EJU%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;450;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0B0E13;
+    --ink-2:#0D1017;
+    --panel:#12161F;
+    --panel-2:#161B26;
+    --line:#212837;
+    --line-2:#2E374A;
+    --text:#B7C0CD;
+    --muted:#6F7A8B;
+    --faint:#525C6B;
+    --bright:#EEF2F8;
+    --accent:#E7B24C;
+    --accent-2:#F0C878;
+    --accent-soft:rgba(231,178,76,0.10);
+    --ai:#5AD1C4;
+    --ai-soft:rgba(90,209,196,0.12);
+    --maxw:1080px;
+    --radius:14px;
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;overflow-x:hidden;width:100%}
+  body{
+    font-family:'Inter',system-ui,sans-serif;
+    background:var(--ink);
+    color:var(--text);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+  ::selection{background:var(--accent);color:#1a1206}
+  a{color:inherit;text-decoration:none}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+
+  /* ---------- shared type ---------- */
+  .mono{font-family:'JetBrains Mono',ui-monospace,monospace}
+  .eyebrow{
+    font-family:'JetBrains Mono',monospace;
+    font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--muted);display:inline-flex;align-items:center;gap:9px;
+  }
+  .eyebrow::before{content:"";width:14px;height:1px;background:var(--accent);flex:none}
+
+  .sec-head{display:flex;align-items:center;gap:16px;margin:0 0 26px}
+  .sec-head .rule{flex:1;height:1px;background:var(--line)}
+  .sec-head .idx{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--faint);letter-spacing:.1em}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;padding:76px 0 54px;border-bottom:1px solid var(--line)}
+  .hero-grid{
+    position:absolute;inset:0;z-index:0;pointer-events:none;
+    background-image:
+      linear-gradient(rgba(255,255,255,.028) 1px,transparent 1px),
+      linear-gradient(90deg,rgba(255,255,255,.028) 1px,transparent 1px);
+    background-size:38px 38px;
+    -webkit-mask-image:radial-gradient(115% 80% at 22% 0%,#000 30%,transparent 72%);
+    mask-image:radial-gradient(115% 80% at 22% 0%,#000 30%,transparent 72%);
+  }
+  .hero-glow{
+    position:absolute;top:-120px;left:8%;width:min(520px,70vw);height:360px;z-index:0;
+    background:radial-gradient(ellipse at center,rgba(231,178,76,.10),transparent 70%);
+    filter:blur(30px);pointer-events:none;
+  }
+  .hero .wrap{position:relative;z-index:1}
+
+  .hero-top{display:flex;align-items:center;gap:24px;margin-bottom:38px}
+  .portrait{
+    width:116px;height:116px;flex:none;border-radius:20px;object-fit:cover;
+    border:1px solid var(--line-2);
+    box-shadow:0 14px 34px -12px rgba(0,0,0,.8), inset 0 0 0 1.5px rgba(231,178,76,.22);
+    filter:saturate(1.03) contrast(1.02);
+  }
+  .hero-top .id .id-name{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:clamp(1.6rem,3.4vw,2rem);line-height:1.08;letter-spacing:-.02em;color:var(--bright)}
+  .hero-top .id .id-role{font-family:'JetBrains Mono',monospace;font-size:12.5px;letter-spacing:.02em;color:var(--muted);margin-top:7px}
+  .hero-top .id .id-role b{color:var(--text);font-weight:500}
+  .status{display:inline-flex;align-items:center;gap:8px;margin-top:11px;font-size:12.5px;color:var(--text)}
+  .dot{width:7px;height:7px;border-radius:50%;background:#3ecf8e;box-shadow:0 0 0 3px rgba(62,207,142,.15)}
+
+  .headline{
+    font-family:'Space Grotesk',sans-serif;font-weight:600;
+    font-size:clamp(2.5rem,6vw,4.15rem);line-height:1.02;letter-spacing:-.025em;
+    color:var(--bright);margin:6px 0 0;
+  }
+  .headline .accent{color:var(--accent)}
+  .role{
+    font-family:'JetBrains Mono',monospace;font-size:clamp(.85rem,1.6vw,1rem);
+    color:var(--muted);letter-spacing:.02em;margin-top:20px;
+  }
+  .role b{color:var(--text);font-weight:500}
+  .lede{max-width:60ch;margin-top:20px;font-size:1.02rem;color:var(--text)}
+
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:22px;font-size:13px;color:var(--muted)}
+  .meta-row span{display:inline-flex;align-items:center;gap:7px}
+  .meta-row svg{width:15px;height:15px;stroke:var(--faint)}
+
+  .cta-row{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;
+    padding:11px 18px;border-radius:10px;font-size:13.5px;font-weight:500;
+    border:1px solid var(--line-2);color:var(--bright);
+    background:var(--panel);transition:.18s ease;
+  }
+  .btn svg{width:16px;height:16px}
+  .btn:hover{border-color:var(--accent);transform:translateY(-1px)}
+  .btn.primary{background:var(--accent);color:#1a1206;border-color:var(--accent);font-weight:600}
+  .btn.primary:hover{background:var(--accent-2)}
+  .btn:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:8px}
+
+  /* stats */
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:44px;border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--ink-2)}
+  .stat{padding:22px 24px;border-right:1px solid var(--line)}
+  .stat:last-child{border-right:none}
+  .stat .num{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:2rem;color:var(--bright);line-height:1;letter-spacing:-.02em}
+  .stat .num small{color:var(--accent);font-size:1.3rem}
+  .stat .lbl{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-top:10px}
+
+  /* ---------- body grid ---------- */
+  .grid{display:grid;grid-template-columns:1.55fr .95fr;gap:52px;padding:64px 0 0}
+  section+section{margin-top:52px}
+
+  /* timeline */
+  .timeline{position:relative;padding-left:26px}
+  .timeline::before{content:"";position:absolute;left:4px;top:6px;bottom:6px;width:1px;background:linear-gradient(var(--line-2),var(--line),transparent)}
+  .tl{position:relative;padding-bottom:34px}
+  .tl:last-child{padding-bottom:0}
+  .tl::before{
+    content:"";position:absolute;left:-26px;top:5px;width:9px;height:9px;border-radius:50%;
+    background:var(--ink);border:1px solid var(--line-2);transform:translateX(0);
+    transition:.2s ease;
+  }
+  .tl.now::before{background:var(--accent);border-color:var(--accent);box-shadow:0 0 0 4px var(--accent-soft)}
+  .tl-year{font-family:'JetBrains Mono',monospace;font-size:11.5px;letter-spacing:.06em;color:var(--muted)}
+  .tl-year .live{color:var(--accent)}
+  .tl-role{font-family:'Space Grotesk',sans-serif;font-size:1.18rem;font-weight:600;color:var(--bright);margin-top:5px;line-height:1.25}
+  .tl-org{font-size:13.5px;color:var(--accent);font-weight:500;margin-top:2px}
+  .tl-org .ctx{color:var(--faint);font-weight:400}
+  .tl-list{list-style:none;margin-top:14px;display:flex;flex-direction:column;gap:9px}
+  .tl-list li{position:relative;padding-left:18px;font-size:14px;color:var(--text)}
+  .tl-list li::before{content:"";position:absolute;left:0;top:9px;width:5px;height:1px;background:var(--faint)}
+  .win{color:var(--bright)}
+  .tl-list b{color:var(--accent);font-weight:600;font-family:'JetBrains Mono',monospace;font-size:13px}
+  .tl-list strong{color:var(--bright);font-weight:600}
+
+  /* sidebar cards */
+  .aside{display:flex;flex-direction:column;gap:26px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px 22px}
+  .card h3{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--muted);font-weight:500;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+  .card h3 svg{width:15px;height:15px;stroke:var(--accent)}
+
+  .cred{display:flex;flex-direction:column;gap:9px}
+  .cred li{display:flex;align-items:baseline;justify-content:space-between;gap:12px;list-style:none;padding-bottom:9px;border-bottom:1px solid var(--line)}
+  .cred li:last-child{border-bottom:none;padding-bottom:0}
+  .cred .k{color:var(--bright);font-weight:500;font-size:14px}
+  .cred .v{font-family:'JetBrains Mono',monospace;font-size:11px;color:var(--muted);text-align:right}
+
+  .stack-group{margin-bottom:16px}
+  .stack-group:last-child{margin-bottom:0}
+  .stack-group .gl{font-family:'JetBrains Mono',monospace;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);margin-bottom:9px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{font-size:12.5px;padding:4px 10px;border-radius:7px;background:var(--panel-2);border:1px solid var(--line-2);color:var(--text)}
+
+  .edu .deg{font-family:'Space Grotesk',sans-serif;font-size:1rem;font-weight:600;color:var(--bright)}
+  .edu .uni{font-size:13px;color:var(--muted);margin-top:2px}
+  .edu .thesis{font-size:12.5px;color:var(--faint);margin-top:10px;padding-left:12px;border-left:1px solid var(--line-2);font-style:italic}
+
+  /* footer */
+  footer{margin-top:76px;border-top:1px solid var(--line);padding:26px 0 46px}
+  footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;align-items:center}
+  footer .mono{font-size:12px;color:var(--faint)}
+  footer a{color:var(--muted);transition:.15s}
+  footer a:hover{color:var(--accent)}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+
+  @media (max-width:860px){
+    .grid{grid-template-columns:1fr;gap:44px;padding-top:48px}
+    .stats{grid-template-columns:1fr}
+    .stat{border-right:none;border-bottom:1px solid var(--line)}
+    .stat:last-child{border-bottom:none}
+    .hero{padding:56px 0 44px}
+  }
+  /* Phones: raise reading text to a comfortable size */
+  @media (max-width:560px){
+    .lede{font-size:1.06rem;line-height:1.62}
+    .tl-list li{font-size:15.5px;line-height:1.55}
+    .tl-year{font-size:12.5px}
+    .tl-org{font-size:14.5px}
+    .tl-list b{font-size:14px}
+    .meta-row{font-size:14px}
+    .id-role{font-size:13.5px}
+    .status{font-size:13.5px}
+    .chip{font-size:13.5px;padding:5px 11px}
+    .cred .k{font-size:15px}
+    .cred .v{font-size:12px}
+    .edu .uni{font-size:14px}
+    .edu .thesis{font-size:13.5px}
+    .card h3{font-size:11.5px}
+    .stack-group .gl{font-size:11px}
+    .stat .lbl{font-size:11px}
+    footer .mono{font-size:12.5px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *{scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+    .btn:hover{transform:none}
+  }
+
+  /* AI throughline */
+  .tl-ai{margin-top:44px;padding:24px 26px 26px;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(180deg,var(--ai-soft),transparent 62%)}
+  .tl-ai-head{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--ai);margin-bottom:22px;display:flex;align-items:center;gap:11px}
+  .tl-ai-head::before{content:"";width:16px;height:1px;background:var(--ai)}
+  .tl-ai-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+  .tl-ai-node{position:relative;padding-top:18px;border-top:1px solid var(--line-2)}
+  .tl-ai-node::before{content:"";position:absolute;top:-5px;left:0;width:9px;height:9px;border-radius:50%;background:var(--ai);box-shadow:0 0 0 4px var(--ai-soft)}
+  .tl-ai-yr{font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ai);letter-spacing:.05em}
+  .tl-ai-t{font-family:'Space Grotesk',sans-serif;font-weight:600;font-size:1.05rem;color:var(--bright);margin-top:7px;line-height:1.2}
+  .tl-ai-s{font-size:13.5px;color:var(--muted);margin-top:7px;line-height:1.5}
+  .ai-tag{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--ai);background:var(--ai-soft);border:1px solid var(--ai-soft);padding:2px 6px;border-radius:5px;margin-right:8px;vertical-align:1.5px}
+  @media (max-width:640px){
+    .tl-ai-grid{grid-template-columns:1fr;gap:18px}
+    .tl-ai-s{font-size:14px}
+  }
+</style>
+</head>
+<body>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="wrap">
+
+      <div class="hero-top">
+        <img class="portrait" src="portrait.jpg" width="116" height="116" alt="Jonatan R. Urfalino" loading="eager" decoding="async">
+        <div class="id">
+          <div class="id-name">Jonatan R. Urfalino</div>
+          <div class="id-role">Sr. Product Manager <b>·</b> Solutions Architect <b>·</b> AI-fluent</div>
+          <div class="status"><span class="dot"></span> Open to senior product roles</div>
+        </div>
+      </div>
+
+      <h1 class="headline reveal">Product leadership<br>for the <span class="accent">AI era.</span></h1>
+
+      <p class="lede reveal">Two decades turning complex enterprise systems into products people actually use — now focused on taking AI from prototype to production. Software Engineer by training, product leader by trade, building with AI since a thesis on intelligent agents.</p>
+
+      <div class="meta-row reveal">
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.7"><path d="M20 10c0 6-8 11-8 11s-8-5-8-11a8 8 0 0116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Vicente López, Buenos Aires — Argentina
+        </span>
+        <span>
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/></svg>
+          Native Spanish · Fluent English
+        </span>
+      </div>
+
+      <div class="cta-row reveal">
+        <a class="btn primary" href="mailto:jurfalino@gmail.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          Get in touch
+        </a>
+        <a class="btn" href="https://www.linkedin.com/in/jurfalino" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 110-4.12 2.06 2.06 0 010 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+          LinkedIn
+        </a>
+        <a class="btn" href="https://github.com/jurfalino" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5A11.5 11.5 0 0 0 .5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.53-1.34-1.3-1.7-1.3-1.7-1.06-.72.08-.71.08-.71 1.17.08 1.79 1.2 1.79 1.2 1.04 1.79 2.73 1.27 3.4.97.1-.75.4-1.27.74-1.56-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.28 5.69.41.36.78 1.05.78 2.12v3.14c0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>
+          GitHub
+        </a>
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat"><div class="num">20<small>+</small></div><div class="lbl">Years · Enterprise &amp; Startup</div></div>
+        <div class="stat"><div class="num" style="color:var(--ai)">2009</div><div class="lbl">Working with AI since · Thesis on intelligent agents</div></div>
+        <div class="stat"><div class="num">3</div><div class="lbl">Certs · TOGAF · SAFe · CSPO</div></div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- AI THROUGHLINE -->
+  <section class="wrap"><div class="tl-ai reveal">
+    <div class="tl-ai-head">The AI throughline</div>
+    <div class="tl-ai-grid">
+      <div class="tl-ai-node">
+        <div class="tl-ai-yr">2009</div>
+        <div class="tl-ai-t">Thesis: Intelligent Agents</div>
+        <div class="tl-ai-s">Software Engineering thesis on automated critical-path detection in project management.</div>
+      </div>
+      <div class="tl-ai-node">
+        <div class="tl-ai-yr">2020</div>
+        <div class="tl-ai-t">Shipped AI in production</div>
+        <div class="tl-ai-s">Azure-based customer-service chatbot at Lumen — cut agent workload 23% and ran 24×7.</div>
+      </div>
+      <div class="tl-ai-node">
+        <div class="tl-ai-yr">2025</div>
+        <div class="tl-ai-t">Deepening applied AI</div>
+        <div class="tl-ai-s">Google Prompting Essentials · Python for Data Science &amp; ML (in progress).</div>
+      </div>
+    </div>
+  </div></section>
+
+  <!-- ============ BODY ============ -->
+  <main class="wrap">
+    <div class="grid">
+
+      <!-- EXPERIENCE -->
+      <div>
+        <div class="sec-head">
+          <span class="eyebrow">Experience</span>
+          <span class="rule"></span>
+          <span class="idx mono">2006 → NOW</span>
+        </div>
+
+        <div class="timeline">
+
+          <article class="tl now reveal">
+            <div class="tl-year"><span class="live">2022 — Present</span></div>
+            <h2 class="tl-role">Product Manager</h2>
+            <div class="tl-org">DataArt <span class="ctx">· Global software engineering firm</span></div>
+            <ul class="tl-list">
+              <li>Lead product roadmap definition and strategic alignment with business stakeholders for a luxury-tourism client, balancing functional and technical feasibility across integrated web and mobile applications.</li>
+              <li>Drive the full product lifecycle — from Epic and User Story definition through release management across multiple platforms.</li>
+              <li class="win">Launched native iOS &amp; Android apps with differentiating features, increasing end-client engagement <b>+13%</b>.</li>
+            </ul>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl-year">2021 — 2022</div>
+            <h2 class="tl-role">Product Manager</h2>
+            <div class="tl-org">GM2 <span class="ctx">· IoT &amp; blockchain startup</span></div>
+            <ul class="tl-list">
+              <li>Led product development for a blockchain mining &amp; staking platform for a U.S. client, translating complex business needs into actionable technical requirements.</li>
+              <li>Managed cross-functional stakeholder priorities and tracked roadmap execution, accelerating early feature delivery in a fast-moving startup.</li>
+            </ul>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl-year">2021</div>
+            <h2 class="tl-role">Practice Manager</h2>
+            <div class="tl-org">Baufest <span class="ctx">· Top-5 Argentine software firm</span></div>
+            <ul class="tl-list">
+              <li>Ran the Software Development practice for the General Markets unit — resourcing and knowledge management, technical-proposal ownership alongside Account Managers, and delivery quality across active projects.</li>
+            </ul>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl-year">2017 — 2021</div>
+            <h2 class="tl-role">Product Manager · IT Architect · Product Owner</h2>
+            <div class="tl-org">Lumen Technologies <span class="ctx">· Global telecom, 60+ countries</span></div>
+            <ul class="tl-list">
+              <li class="win"><span class="ai-tag">AI</span>As <strong>Product Manager</strong>, deployed an AI-powered customer-service chatbot on Azure to automate FAQ handling — cutting representative workload <b>−23%</b> and launching a 24×7 automated support channel.</li>
+              <li>As <strong>LATAM IT Architect</strong>, drove innovation and rationalized the regional application landscape, raising IT maturity through DevOps adoption.</li>
+              <li class="win">As <strong>Product Owner</strong> of the LATAM Customer Portal, ran a customer-journey workshop that surfaced UX friction and drove a <b>+4%</b> NPS gain.</li>
+            </ul>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl-year">2016 — 2017</div>
+            <h2 class="tl-role">Project Manager</h2>
+            <div class="tl-org">Plus54 <span class="ctx">· Web &amp; mobile studio, US &amp; LATAM</span></div>
+            <ul class="tl-list">
+              <li>Held full ownership of web &amp; mobile application projects for U.S. and Latin American clients — scope, schedule, resources, risk, and quality.</li>
+            </ul>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl-year">2015 — 2016</div>
+            <h2 class="tl-role">e-Commerce Consultant</h2>
+            <div class="tl-org">VTEX <span class="ctx">· E-commerce platform, 1,500+ clients</span></div>
+            <ul class="tl-list">
+              <li>Delivered e-commerce implementation and evolution projects across SMB and enterprise clients, coordinating digital agencies, marketplaces, logistics, and payment providers.</li>
+            </ul>
+          </article>
+
+          <article class="tl reveal">
+            <div class="tl-year">2006 — 2014</div>
+            <h2 class="tl-role">Enterprise Architect &amp; Product Owner</h2>
+            <div class="tl-org">Kimberly-Clark Corp. <span class="ctx">· Fortune 500 consumer goods</span></div>
+            <ul class="tl-list">
+              <li class="win">As <strong>Enterprise Architect</strong>, aligned IT strategy with business strategy — capability roadmapping, standards, and tool selection; led SAP usability work with screen Personas that cut task time and error rates up to <b>50%</b>.</li>
+              <li class="win">As <strong>Product Owner</strong>, delivered the KC Customer Portal on time and budget to <b>800+</b> users across Latin America — later adopted in Asia — growing B2B online sales.</li>
+              <li>Led a <b>9-developer</b> team across Flex, Java, SAP BW and ABAP to build TEMPOS, the region's top-priority reporting platform in 2010–2011.</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside class="aside">
+
+        <div class="card reveal">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.7"><circle cx="12" cy="8" r="6"/><path d="M8.2 13.5 7 22l5-3 5 3-1.2-8.5"/></svg>
+            Certifications
+          </h3>
+          <ul class="cred">
+            <li><span class="k">TOGAF 9.1</span><span class="v">Enterprise Architect</span></li>
+            <li><span class="k">SAFe 4</span><span class="v">Certified Agilist</span></li>
+            <li><span class="k">CSPO</span><span class="v">Scrum Alliance PO</span></li>
+          </ul>
+        </div>
+
+        <div class="card reveal">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" style="stroke:var(--ai)"><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg>
+            AI &amp; Continuous Learning
+          </h3>
+          <ul class="cred">
+            <li><span class="k">Google Prompting</span><span class="v">2025</span></li>
+            <li><span class="k">Python · Data Sci &amp; ML</span><span class="v">In progress</span></li>
+            <li><span class="k">Conversational AI</span><span class="v">Shipped · Azure</span></li>
+          </ul>
+        </div>
+
+        <div class="card reveal">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.7"><path d="M12 2 2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            Core Stack
+          </h3>
+          <div class="stack-group">
+            <div class="gl">Product &amp; Agility</div>
+            <div class="chips"><span class="chip">Jira</span><span class="chip">Notion</span><span class="chip">Figma</span><span class="chip">Miro</span></div>
+          </div>
+          <div class="stack-group">
+            <div class="gl">Analytics &amp; BI</div>
+            <div class="chips"><span class="chip">Looker</span><span class="chip">Power BI</span><span class="chip">Splunk</span><span class="chip">Datadog</span></div>
+          </div>
+          <div class="stack-group">
+            <div class="gl">Enterprise · SAP</div>
+            <div class="chips"><span class="chip">SAP ABAP</span><span class="chip">SAP BW</span><span class="chip">SAP CRM</span><span class="chip">Azure</span></div>
+          </div>
+        </div>
+
+        <div class="card edu reveal">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke-width="1.7"><path d="M22 10 12 5 2 10l10 5 10-5zM6 12v5c0 1 2.7 3 6 3s6-2 6-3v-5"/></svg>
+            Education
+          </h3>
+          <div class="deg">B.Sc. Software Engineering</div>
+          <div class="uni">Universidad Argentina de la Empresa (UADE)</div>
+          <p class="thesis">Thesis — Intelligent Agents for Critical-Path Project Management.</p>
+        </div>
+
+      </aside>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span class="mono">© 2026 Jonatan R. Urfalino</span>
+      <span class="mono"><a href="mailto:jurfalino@gmail.com">jurfalino@gmail.com</a> · <a href="https://www.linkedin.com/in/jurfalino" target="_blank" rel="noopener">in/jurfalino</a></span>
+    </div>
+  </footer>
+
+  <script>
+    // Progressive reveal — respects reduced-motion (CSS neutralizes .reveal there)
+    const items = document.querySelectorAll('.reveal');
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
+      items.forEach(el => el.classList.add('in'));
+    } else {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e, i) => {
+          if (e.isIntersecting) { e.target.style.transitionDelay = (i % 6) * 60 + 'ms'; e.target.classList.add('in'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -8% 0px' });
+      items.forEach(el => io.observe(el));
+    }
+  </script>
+</body>
+</html>
